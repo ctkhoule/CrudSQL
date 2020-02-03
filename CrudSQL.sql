@@ -10,10 +10,16 @@ Create table Etudiant (
 );
 
 /* Insertion de données - (Create = INSERT) */
-Insert into Etudiant(idEtudiant, nom, prenom, filiere, niveau) values
-(201901, "KHOULE", "Cheikh Tidiane", "Génie informatique", "Mater 2");
-Insert into Etudiant values(201902, "FALL", "Rama", "Droit des affaires", "Licence 1");
+INSERT into Etudiant(idEtudiant, nom, prenom, filiere, niveau) values
+(201901, 'KHOULE', 'Cheikh Tidiane', 'Génie informatique', 'Mater 2');
+INSERT into Etudiant values(201902, 'FALL', 'Rama', 'Droit des affaires', 'Licence 1');
 
 /* Lecture de données - Read = SELECT */
-Select * from Etudiant;
-Select nom, prenom from Etudiant where niveau="Licence 1";
+SELECT * from Etudiant;
+SELECT nom, prenom from Etudiant where niveau = 'Licence 1';
+
+/* Mise à jour de données - Update = UPDATE */
+    /* Modifier une ligne */
+UPDATE Etudiant set nom = 'DIOP', filiere = 'Economie et gestion' where idEtudiant = 201902;
+    /* Modifier tous les lignes */
+UPDATE Etudiant set niveau = 'Licence 1';
