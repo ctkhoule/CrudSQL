@@ -14,3 +14,8 @@ Nous allons procéder comme suit :
 - Créer une table (Etudiant)
 - Exécuter les opérations Crud sur SQL avec les commandes respectives 
 INSERT, SELECT, UPDATE et DELETE.
+
+
+//Contact : 
+Name : Cheikh Tidiane KHOULE
+E-mail : ctkhoule@gmail.com
