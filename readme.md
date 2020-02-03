@@ -10,7 +10,7 @@ Read = SELECT
 Update = UPDATE
 Delete = DELETE
 
-Nous allons procéder comme :
+Nous allons procéder comme suit :
 - Créer une table (Etudiant)
 - Exécuter les opérations Crud sur SQL avec les commandes respectives 
 INSERT, SELECT, UPDATE et DELETE.
