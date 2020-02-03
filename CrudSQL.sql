@@ -9,8 +9,11 @@ Create table Etudiant (
     niveau varchar(10)
 );
 
-/* Insertion de données (Create = INSERT) */
+/* Insertion de données - (Create = INSERT) */
 Insert into Etudiant(idEtudiant, nom, prenom, filiere, niveau) values
 (201901, "KHOULE", "Cheikh Tidiane", "Génie informatique", "Mater 2");
-
 Insert into Etudiant values(201902, "FALL", "Rama", "Droit des affaires", "Licence 1");
+
+/* Lecture de données - Read = SELECT */
+Select * from Etudiant;
+Select nom, prenom from Etudiant where niveau="Licence 1";
