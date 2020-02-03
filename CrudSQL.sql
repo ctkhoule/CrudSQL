@@ -11,7 +11,7 @@ Create table Etudiant (
 
 /* Insertion de données - (Create = INSERT) */
 INSERT into Etudiant(idEtudiant, nom, prenom, filiere, niveau) values
-(201901, 'KHOULE', 'Cheikh Tidiane', 'Génie informatique', 'Mater 2');
+(201901, 'KHOULE', 'Cheikh Tidiane', 'Génie informatique', 'Master 2');
 INSERT into Etudiant values(201902, 'FALL', 'Rama', 'Droit des affaires', 'Licence 1');
 
 /* Lecture de données - (Read = SELECT) */
