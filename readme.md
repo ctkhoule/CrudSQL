@@ -9,10 +9,3 @@ Sous SQL les opérations Crud s'exécute comme suit :
 - Delete = DELETE
 ```
 
-### Nous allons procéder comme suit :
-- Créer une table (Etudiant)
-- Exécuter les opérations Crud sur SQL avec les commandes respectives `INSERT, SELECT, UPDATE et DELETE`.
-
-### Contact : 
-- Nom : Cheikh Tidiane KHOULE
-- E-mail : ctkhoule@gmail.com
